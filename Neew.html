@@ -1,0 +1,80 @@
+<DOCTYPE! html>
+  <html>
+<head>
+  <title>form</title>
+  <style type="text/css">
+    .heading{
+      background-color:linear gradient:blue;black;pink;
+      margin:50;
+      
+      color: red;
+      font-size : 20px;
+      text-align : center;
+      
+      
+    }
+    .back{
+    
+      
+           background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTum0rJ-xkBflLmO1QyuoTaWPPUIK_fcOuhNRscFxHNkF7VgqYVQC-lF4c&s=10');    }
+    
+    .h{
+      width:100px;
+      height:30px;
+      border-radius: 43px;
+background: #e0e0e0;
+box-shadow:  32px 32px 64px #777777,
+             -32px -32px 64px #ffffff;
+             margin:60;
+    }
+    .k{
+      border:0;
+      margin:3;
+      font-size:20px;
+    
+    }
+  </style>
+    </head>
+    <body class="back"style="background-color:lightgreen; border:100px;">
+      
+   
+      <form  class="heading" action="Test.html" method="post">
+        <fieldset>
+           <legend><b>Information Form</b></legend>
+           <b><label>full name :</label>
+           <input type="text" name="fullname" required="">
+           <br><br>
+            <label>Username :</label>
+           <input type="text" name="Username"required=""><br><br>
+           <label>Password :</label>
+           <input type="password" name="password" required="">
+<br><br>
+           <label>EMAIL :</label>
+           <input type="email" name="EMAIL" required="">
+<br><br>
+ <label>Gender :</label>
+           <input type="radio" name="Gender"value="male">male
+            <input type="radio" name="Gender" value=""="female">female
+            <input type="radio"name="Gender" value="other" >other
+            <br><br>
+            <label>Address</label>
+            <textarea required=""></textarea>
+            <br><br>
+            <label>Do you like any of these          :</label><br>
+            <input type="checkbox" name="Reading" value="Reading">Reading
+                        <input type="checkbox" name="Writing" value="Writing">Writing
+            <input type="checkbox" name="gaming" value="Gaming">Gaming
+            <input type="checkbox" name="Riding" value="Riding">Riding
+            <br><br>
+            <input style="border-radius:300px" type="reset" value="clean">
+            <div class="h">
+              <input class="k" style="background: #e0e0e0"style="width:10px" type="submit" value="done"></b>
+              
+            </div>
+        </fieldset>
+        </form>
+
+      
+    </body>
+    
+    </html>
